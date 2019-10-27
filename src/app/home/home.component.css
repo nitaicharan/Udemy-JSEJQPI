@@ -37,11 +37,12 @@ header {
 #fundo h1{
     padding:1%;
     text-align: center;
-    color: orange;
+    color: white;
 }
 #fundo p{
     padding: 1% 30% 1% 30%;
     color: white;
+    text-align: justify;
 }
 
 #efeito {
@@ -56,4 +57,28 @@ footer {
 #by {
     text-align: center;
     padding: 20px;
+}
+
+#fundo nav{
+    text-align: center;
+}
+
+#fundo nav a{
+    margin:10px;
+    text-decoration:none;
+}
+
+#backgroundnav {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#backgroundnav a {
+    text-align: center;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #111111;
+    margin:10px;
+    color: white;
+    padding:10px;
+    background-color: rgba(1,1,1,.5);
 }
